@@ -1,0 +1,21 @@
+{
+  "name": "poundcake",
+  "version": "0.0.0",
+  "description": "an implementation of PoundCake Virtual ISA",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/1995hnagamin/poundcake"
+  },
+  "keywords": [
+    "Piet"
+  ],
+  "author": "Hideaki Nagamine",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/1995hnagamin/poundcake/issues"
+  }
+}
