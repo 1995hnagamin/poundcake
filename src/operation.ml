@@ -1,5 +1,5 @@
 type operand =
-  Push
+  Push of int
 | Pop
 | Dup
 | Roll
@@ -7,15 +7,14 @@ type operand =
 | Mul
 | Sub
 | Div
+| Mod
 | Greater
 | Not
-| Mod
 | Ifte
-| Jez
-| Jmp
-| Label
-| Gosub
-| Return
+| Jez of int
+| Jmp of int
+| Call of int
+| Return of int
 | Inn
 | Inc
 | Outn
@@ -25,6 +24,6 @@ type operand =
 | Malloc
 | Loadh
 | Storeh
-| Loads
-| Stores
+| Loads of int
+| Stores of int
 

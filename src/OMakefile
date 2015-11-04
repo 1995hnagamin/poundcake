@@ -21,7 +21,11 @@ OCAML_BYTE_LINK_FLAGS +=
 OCAML_NATIVE_LINK_FLAGS +=
 
 FILES[] =
-   operation
+		operation
+		stak
+		staticM
+		heap
+		machine
 
 PROGRAM = poundcake
 OCAML_LIBS +=
